@@ -32,6 +32,23 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+#devise
+gem 'devise'
+
+#only test
+group :test,:development do
+  gem 'byebug'
+end
+
+#addComments
+gem 'migration_comments', '~> 0.3.2'
+
+#add paging
+gem 'kaminari'
+
+#pg
+gem 'pg'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
